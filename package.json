@@ -1,0 +1,38 @@
+{
+  "name": "hivtrace",
+  "version": "0.4.0",
+  "description": "HIVTrace, only in Javascript. Easy to install.",
+  "main": "hivtrace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg cli.js"
+  },
+  "bin": {
+    "hivtrace": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AABoyles/HIVTrace.js.git"
+  },
+  "author": "Tony Boyles",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AABoyles/HIVTrace.js/issues"
+  },
+  "homepage": "https://github.com/AABoyles/HIVTrace.js#readme",
+  "pkg": {
+    "scripts": "hivtrace.js"
+  },
+  "dependencies": {
+    "bioseq": "^0.1.1",
+    "chalk": "^2.3.0",
+    "clui": "^0.3.6",
+    "commander": "^2.11.0",
+    "fasta-parser": "^0.1.0",
+    "fs-jetpack": "^1.2.0",
+    "tn93": "^0.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.2.5"
+  }
+}
